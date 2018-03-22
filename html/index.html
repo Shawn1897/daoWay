@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>到位APP</title>
+    <title>到位APP - 高品质上门服务直约平台，家政服务，上门按摩，上门维修，搬家，安心到家!</title>
     <link rel="stylesheet" href="../assest/stylus/index.css">
     <link rel="stylesheet" href="../assest/css/reset.css">
     <link rel="stylesheet" href="../assest/css/swiper.css">
@@ -11,7 +11,7 @@
 <!--首页导航栏-->
 <header class="header">
     <div class="headerContainer">
-        <a class="logo">
+        <a class="logo" href="./index.html">
             <img src="./images/logo.png" alt="">
         </a>
         <a class="position">
@@ -30,7 +30,7 @@
                     <a class="point" href="">到位APP</a>
                 </li>
                 <li class="introLi">
-                    <a class="point" href="">服务商</a>
+                    <a class="point" href="./service.html">服务商</a>
                 </li>
                 <li class="introLi">
                     <a class="point" href="">商家入驻</a>
@@ -71,12 +71,24 @@
                 <a href="">家庭保洁</a>
                 <img src="./images/right.png" alt="">
                 <ul class="columnOne">
-                    <li class="columnOneList">小时工</li>
-                    <li class="columnOneList">开荒保洁</li>
-                    <li class="columnOneList">擦玻璃</li>
-                    <li class="columnOneList">深度保洁</li>
-                    <li class="columnOneList">杀毒除螨</li>
-                    <li class="columnOneList">家具养护</li>
+                    <li class="columnOneList">
+                        <a href="">小时工</a>
+                    </li>
+                    <li class="columnOneList">
+                        <a href="">开荒保洁</a>
+                    </li>
+                    <li class="columnOneList">
+                        <a href="">擦玻璃</a>
+                    </li>
+                    <li class="columnOneList">
+                        <a href="">深度保洁</a>
+                    </li>
+                    <li class="columnOneList">
+                        <a href="">杀毒除螨</a>
+                    </li>
+                    <li class="columnOneList">
+                        <a href="">家具养护</a>
+                    </li>
                 </ul>
             </li>
             <li class="columnItem">
@@ -1187,7 +1199,39 @@ window.onload = function () {
             clickable:true
         }
     });
+
+    $(function () {
+        subMenu()
+
+        function subMenu() {
+            $('.columnItem').hover(function () {
+                $(this).children('.columnOne') .show()
+            },function () {
+                $(this).children('.columnOne') .hide()
+            })
+        }
+
+        $(document).scroll(function () {
+            if ($(this).scrollTop()>70){
+                $('.header').css({
+                    position:'fixed',
+                    top:0,
+                    zIndex:500
+
+                })
+            }else{
+                $('.header').css({
+                    //css position 的默认值
+                    position:'static',
+                })
+            }
+        })
+    })
+
+
 }
+
+
 </script>
 </body>
 </html>

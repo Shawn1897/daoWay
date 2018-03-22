@@ -8,6 +8,15 @@
     padding 0 70px
     box-sizing border-box
     min-width 200px
+    animation slowMove all 1000
+    @keyframes slowMove {
+      from{
+        transform translateY(-70px)
+      }
+      to{
+        transform translateY(0)
+      }
+    }
     .headerContainer
       width 100%
       height 70px
@@ -91,11 +100,11 @@
       .columnList
         width 100%
         height 100%
-        overflow hidden
         .columnItem
           width 180px
           height 42px
           line-height 42px
+          position relative
           &:hover
             background #60646D
           >a
@@ -104,10 +113,24 @@
             font-weight bolder
           >img
             margin-left 15px
-            .columnOne
+          .columnOne
+            width 180px
+            height 420px
+            background rgba(255,254,254,.8)
+            position absolute
+            left 180px
+            top 0
+            display none
+            .columnOneList
               width 180px
-              height 420px
-              background #fff
+              height 42px
+              line-height 42px
+              >a
+                color #000000
+                font-weight bolder
+                font-family "微软雅黑"
+                &:hover
+                  color red
   .familyClean01
     width 100%
     height 496px
