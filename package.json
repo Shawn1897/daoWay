@@ -1,0 +1,8 @@
+{
+  "name": "Shawn",
+  "version": "1.0.0",
+  "description": "A jQuery project",
+  "dependencies": {
+    "swiper": "^4.2.0"
+  }
+}

@@ -1,0 +1,414 @@
+.protect {
+  width: 100%;
+  background: #fff;
+  padding-top: 75px;
+  padding-bottom: 55px;
+}
+.protect .proctctH {
+  text-align: center;
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+}
+.protect .proctctH .protectH2 {
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  color: #f00;
+}
+.protect .promise {
+  color: #3d3838;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.protect .promiseThree {
+  width: 490px;
+  height: 66px;
+  margin: 0 auto;
+  margin-right: 388px;
+  margin-top: 15px;
+}
+.protect .promiseThree .promiseT {
+  float: left;
+  margin-right: 51px;
+}
+.protect .promiseThree .promiseT >img,
+.protect .promiseThree .promiseT .promiseZ {
+  margin-left: 5px;
+  line-height: 22px;
+}
+.protect .cities {
+  width: 1200px;
+  padding: 0 70px;
+  margin: 0 auto;
+}
+.protect .cities .hotCity {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "微软雅黑";
+}
+.protect .cities .city {
+  width: 1090px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 150px;
+  margin-right: 34px;
+  position: relative;
+  top: -23px;
+}
+.protect .cities .city .cityName {
+  float: left;
+  text-align: center;
+}
+.protect .cities .city .cityName >a {
+  width: 9%;
+  color: #898989;
+  font-size: 16px;
+  margin-right: 65px;
+}
+.footer {
+  width: 100%;
+  padding-bottom: 165px;
+  background: #fbf8f8;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer .cooperation {
+  float: left;
+  margin-left: 82px;
+  margin-top: 19px;
+  font-weight: bolder;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+}
+.footer .coops {
+  width: 1292px;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 66px;
+}
+.footer .coops .coopLi {
+  width: 120px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+.footer .coops .coopLi >img {
+  width: 100px;
+  height: 47px;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  position: relative;
+  padding: 0 70px;
+  box-sizing: border-box;
+  min-width: 200px;
+}
+.header .headerContainer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: inherit;
+}
+.header .headerContainer .logo {
+  margin-top: 15px;
+  line-height: 70px;
+}
+.header .headerContainer .position {
+  color: #000;
+  position: absolute;
+  left: 430px;
+}
+.header .headerContainer .position >span {
+  font-weight: bolder;
+  font-family: "微软雅黑";
+}
+.header .headerContainer .intro {
+  width: 700px;
+  height: 70px;
+  margin-right: 95px;
+}
+.header .headerContainer .intro .introduce {
+  width: 100%;
+  height: 70px;
+  margin-left: 140px;
+}
+.header .headerContainer .intro .introduce >li {
+  float: left;
+  margin-right: 35px;
+}
+.header .headerContainer .intro .introduce >li .point {
+  color: #000;
+  font-weight: bolder;
+  font-family: "微软雅黑";
+}
+.header .headerContainer .intro .introduce >li .point:hover {
+  color: #f00;
+}
+.header .headerContainer .intro .introduce >li .first {
+  color: #f00;
+  font-weight: bolder;
+}
+.header .headerContainer .intro .introduce >li .login {
+  color: #fff;
+  background: #e94840;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+.guide {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+.guide .bigPics {
+  width: 100%;
+  height: 420px;
+}
+.guide .bigPics .bigPicsList {
+  width: 100%;
+  height: 100%;
+}
+.guide .bigPics .bigPicsList .bigPicsItem {
+  width: 100%;
+  height: 420px;
+  background-image: url("../../html/images/banner1.jpg");
+  background-position: center;
+}
+.guide .bigPics .bigPicsList .bigPicsItem01 {
+  width: 100%;
+  height: 420px;
+  background-image: url("../../html/images/banner2.jpg");
+  background-position: center;
+}
+.guide .bigPics .bigPicsList .bigPicsItem02 {
+  width: 100%;
+  height: 420px;
+  background-image: url("../../html/images/banner3.jpg");
+  background-position: center;
+}
+.guide .column {
+  width: 180px;
+  height: 420px;
+  background: #757881;
+  text-align: center;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.guide .column .columnList {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.guide .column .columnList .columnItem {
+  width: 180px;
+  height: 42px;
+  line-height: 42px;
+}
+.guide .column .columnList .columnItem:hover {
+  background: #60646d;
+}
+.guide .column .columnList .columnItem >a {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-weight: bolder;
+}
+.guide .column .columnList .columnItem >img {
+  margin-left: 15px;
+}
+.guide .column .columnList .columnItem >img .columnOne {
+  width: 180px;
+  height: 420px;
+  background: #fff;
+}
+.familyClean01 {
+  width: 100%;
+  height: 496px;
+  background: #fff;
+  padding: 50px 0 0;
+}
+.familyClean01 .titleClean {
+  font-size: 28px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+.familyClean01 .cleanSmall {
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 0 60px;
+  display: block;
+  margin-top: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+.familyClean01 .cleanSmall >a {
+  color: #3d3838;
+}
+.familyClean01 .cleanSmall >a:hover {
+  color: #f00;
+}
+.familyClean01 .cleanSmall .more {
+  float: right;
+  color: #898989;
+}
+.familyClean01 .cleanSmall .serviceTags {
+  width: 100%;
+  height: 386px;
+}
+.familyClean01 .clearPerson {
+  position: relative;
+  display: block;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+.familyClean01 .clearPerson .shopList {
+  padding: 10px;
+  width: 210px;
+  height: 345px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  margin: 0 5px;
+  margin-top: 30px;
+  float: left;
+}
+.familyClean01 .clearPerson .shopList >img {
+  text-align: center;
+  width: 210px;
+  height: 210px;
+  vertical-align: middle;
+}
+.familyClean01 .clearPerson .shopList .serviceName {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 800;
+  color: #000;
+  height: 28px;
+  overflow: hidden;
+  width: 101%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.familyClean01 .clearPerson .shopList .description {
+  color: #929292;
+  font-size: 13px;
+  line-height: 18px;
+  width: 208px;
+  height: 58px;
+}
+.familyClean01 .clearPerson .shopList .price {
+  color: #f00;
+  font-weight: 600px;
+}
+.familyClean01 .clearPerson .shopList .price .priceOne {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.familyClean01 .clearPerson .shopList .price .btn {
+  background: #f00;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 50px;
+}
+.familyClean02 {
+  width: 100%;
+  height: 496px;
+  background: #fbf8f8;
+  padding: 50px 0 0;
+}
+.familyClean02 .titleClean {
+  font-size: 28px;
+  font-family: "微软雅黑";
+  text-align: center;
+}
+.familyClean02 .cleanSmall {
+  width: 100%;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 0 60px;
+  display: block;
+  margin-top: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+.familyClean02 .cleanSmall >a {
+  color: #3d3838;
+}
+.familyClean02 .cleanSmall >a:hover {
+  color: #f00;
+}
+.familyClean02 .cleanSmall .more {
+  float: right;
+  color: #898989;
+}
+.familyClean02 .cleanSmall .serviceTags {
+  width: 100%;
+  height: 386px;
+}
+.familyClean02 .clearPerson {
+  position: relative;
+  display: block;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+.familyClean02 .clearPerson .shopList {
+  padding: 10px;
+  width: 210px;
+  height: 345px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  margin: 0 5px;
+  margin-top: 30px;
+  float: left;
+}
+.familyClean02 .clearPerson .shopList >img {
+  text-align: center;
+  width: 210px;
+  height: 210px;
+  vertical-align: middle;
+}
+.familyClean02 .clearPerson .shopList .serviceName {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 800;
+  color: #000;
+  height: 28px;
+  overflow: hidden;
+  width: 101%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.familyClean02 .clearPerson .shopList .description {
+  color: #929292;
+  font-size: 13px;
+  line-height: 18px;
+  width: 208px;
+  height: 58px;
+}
+.familyClean02 .clearPerson .shopList .price {
+  color: #f00;
+  font-weight: 600px;
+}
+.familyClean02 .clearPerson .shopList .price .priceOne {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.familyClean02 .clearPerson .shopList .price .btn {
+  background: #f00;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  margin-left: 50px;
+}
